@@ -9,3 +9,7 @@ int main()
         cout << "Selamat belajar di prodi TI UMY" << endl;
         //throw 0.5; //melemparkan sebuah integer maka
         cout << "Pernyataan tidak akan ditampilkan" << endl;
+    }
+
+    //kondisi jika throw yang bertipe data integer
+    catch (int a)
