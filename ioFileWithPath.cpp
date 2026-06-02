@@ -16,7 +16,7 @@ int main()
     //membuat file dalam mode menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file dengan ekstentsi txt
-    outfile.open(NamaFile + ".txt", ios::out);
+    outfile.open("D:\\BianValentin\\" + NamaFile + ".txt", ios::out);
 
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
@@ -41,7 +41,7 @@ int main()
     ifstream infile;
 
     //menunjuk ke sebuah file dengan ekstensi .txt
-    infile.open(NamaFile + ".txt", ios::in);
+    infile.open("D:\\BianValentin\\" + NamaFile + ".txt", ios::in);
 
     cout << endl << ">= Membuka dan membaca file" << endl;
 
